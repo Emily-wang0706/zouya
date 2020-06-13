@@ -3,7 +3,7 @@
 		<view class="bg_title">
 			<view class="apply">
 				<image src="../../static/bwimg/return.svg"></image>
-				<text>申请报名</text>
+				<text>申请报名 hello</text>
 			</view>
 		</view>
 		<view class="apply_item">
