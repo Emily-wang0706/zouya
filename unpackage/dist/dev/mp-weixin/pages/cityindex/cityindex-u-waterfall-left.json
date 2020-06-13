@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cityindex-u-waterfall-left": "/pages/cityindex/cityindex-u-waterfall-left",
+    "cityindex-u-waterfall-right": "/pages/cityindex/cityindex-u-waterfall-right"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "u-waterfall": "/uview-ui/components/u-waterfall/u-waterfall",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "index-u-waterfall-left": "/pages/index/index-u-waterfall-left",
+    "index-u-waterfall-right": "/pages/index/index-u-waterfall-right",
+    "index-u-waterfall-left1": "/pages/index/index-u-waterfall-left1",
+    "index-u-waterfall-right1": "/pages/index/index-u-waterfall-right1",
+    "swiper-tab-head": "/my-components/swiper-tab-head",
+    "follo-wuser": "/my-components/followuser"
+  }
+}

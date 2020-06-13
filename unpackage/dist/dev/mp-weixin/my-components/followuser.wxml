@@ -1,0 +1,1 @@
+<view><view class="user-list"><block wx:for="{{friend}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="list-box"><view class="user-item"><image src="{{item.avatar_url}}" mode></image><block wx:if="{{item.is_sign}}"><text class="icon iconfont icon-yuandianxiao"></text></block></view></view></block></view></view>

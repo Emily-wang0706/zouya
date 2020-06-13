@@ -1,0 +1,6 @@
+
+.user-list {display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-pack: start;-webkit-justify-content: flex-start;justify-content: flex-start; padding: 0px 24rpx;overflow-x: scroll;}
+.user-item {position:relative; width: 60rpx; height: 60rpx; margin-right: 40rpx;}
+.user-item image { width: 60rpx; height: 60rpx; border-radius: 50%;}
+.icon-yuandianxiao { color: #00E646; font-size: 20px; position: absolute; top:-8px; right: -10rpx;}
+

@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "nav-bar": "/my-components/nav-bar",
+    "com-ment": "/my-components/comment"
+  }
+}

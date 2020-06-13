@@ -1,0 +1,1 @@
+<view><view class="nav-box"><view class="navbar-l"><view class="return"><text class="icon iconfont icon-fanhui"></text><image src="{{userinfo.userimg}}" mode></image><text class="username">{{userinfo.username}}</text></view><view class="navbar-r-btn">关注</view></view></view></view>
