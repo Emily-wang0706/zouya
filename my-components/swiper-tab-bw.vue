@@ -2,7 +2,7 @@
 	<view class="cont">
 		<!-- 轮播 -->
 		<view class="swiper-box">
-			<view class="swiper-bg"><image mode="widthFix" class="bg-img" src="../static/bwimg/swpier-bg.png"></image></view>
+			<view class="swiper-bg"><image mode="widthFix" class="bg-img" :src="looplist1.background_image"></image></view>
 			<view class="page-section-spacing swiper-item-box">
 				<swiper
 					class="swiper"
@@ -14,7 +14,7 @@
 					interval="4000"
 					duration="500"
 				>
-					<swiper-item v-for="(item, index) in looplist" :key="data.id"><image :src="item.image" mode="aspectFill"></image></swiper-item>
+					<swiper-item v-for="(item, index) in looplist" :key="index"><image :src="looplist[index].image" mode="aspectFill"></image></swiper-item>
 				</swiper>
 			</view>
 		</view>
@@ -24,14 +24,14 @@
 				<view class="card-item-l"><image mode="widthFix" class="bg-img" src="../static/bwimg/card-l.png"></image></view>
 				<view class="card-item-r">
 					<text class="c-subtitle">累计中奖人数</text>
-					<text class="c-title">37284人</text>
+					<text class="c-title">{{numObj.winning_num}}</text>
 				</view>
 			</view>
 			<view class="card-item">
 				<view class="card-item-l"><image mode="widthFix" class="bg-img" src="../static/bwimg/card-r.png"></image></view>
 				<view class="card-item-r">
 					<text class="c-subtitle">累计送出份数</text>
-					<text class="c-title">37284人</text>
+					<text class="c-title">{{numObj.send_num}}</text>
 				</view>
 			</view>
 		</view>
@@ -48,12 +48,12 @@
 				</view>
 			</view>
 			<view class="limTime-cont">
-				<image class="l-c-img" mode="widthFix" src="../static/bwimg/food.png"></image>
+				<image class="l-c-img" mode="widthFix" :src="secList[0].thumb"></image>
 				<view class="l-c-subTitle">
-					<image class="" mode="widthFix" src="../static/bwimg/time.png"></image>
-					<text>宽窄巷子火锅(新街口店)</text>
+					<image class="" mode="widthFix" :src="secList[0].store_logo"></image>
+					<text>{{secList[0].store_name}}</text>
 				</view>
-				<text class="l-c-title">超美味韩国料理 Garry最爱黑石料理 黑珍珠餐厅 双人</text>
+				<text class="l-c-title">{{secList[0].name}}</text>
 				<view class="l-c-footer">
 					<view class="l-c-footer-l">
 						<text class="txt-l">距结束还有:</text>
@@ -78,72 +78,18 @@
 			</view>
 			<view class="select-cont">
 				<view class="inv-h-w">
-					<view :class="['inv-h', Inv == 0 ? 'inv-h-se' : '']" @click="Inv = 0">美食</view>
-					<view :class="['inv-h', Inv == 1 ? 'inv-h-se' : '']" @click="Inv = 1">丽人</view>
-					<view :class="['inv-h', Inv == 2 ? 'inv-h-se' : '']" @click="Inv = 2">周边游</view>
-					<view :class="['inv-h', Inv == 3 ? 'inv-h-se' : '']" @click="Inv = 3">休闲/玩乐</view>
+					<view v-for="(item, index) in pagList" :key="index" :class="['inv-h', Inv == index ? 'inv-h-se' : '']" @click="changeTab(index)">{{item.name}}</view>
 				</view>
 				<view class="current" v-show="Inv == 0">
-					<view class="foodlist">
-						<view><image src="../static/bwimg/food.png" class="foimg"></image></view>
+					<view class="foodlist" v-for="(item, index) in goodList" :key="index">
+						<view><image :src="item.thumb" class="foimg"></image></view>
 						<view>
-							<view class="foadd">澳门烧鸭卤味饭新卤味饭新街口店-价值999元</view>
-							<view class="instance">李时珍大道 | 3.4km</view>
+							<view class="foadd">{{ item.name }}</view>
+							<view class="instance">{{ item.address }} | {{ item.dist }}</view>
 							<view class="fobo">
 								<view class="price">
 									<text class="sell">￥</text>
-									999
-								</view>
-								<view class="free">
-									<view></view>
-									<text>免费抽</text>
-								</view>
-							</view>
-						</view>
-					</view>
-					<view class="foodlist">
-						<view><image src="../static/bwimg/food.png" class="foimg"></image></view>
-						<view>
-							<view class="foadd">澳门烧鸭卤味饭新卤味饭新街口店-价值999元</view>
-							<view class="instance">李时珍大道 | 3.4km</view>
-							<view class="fobo">
-								<view class="price">
-									<text class="sell">￥</text>
-									999
-								</view>
-								<view class="free">
-									<view></view>
-									<text>免费抽</text>
-								</view>
-							</view>
-						</view>
-					</view>
-					<view class="foodlist">
-						<view><image src="../static/bwimg/food.png" class="foimg"></image></view>
-						<view>
-							<view class="foadd">澳门烧鸭卤味饭新卤味饭新街口店-价值999元</view>
-							<view class="instance">李时珍大道 | 3.4km</view>
-							<view class="fobo">
-								<view class="price">
-									<text class="sell">￥</text>
-									999
-								</view>
-								<view class="free">
-									<view></view>
-									<text>免费抽</text>
-								</view>
-							</view>
-						</view>
-					</view>
-					<view class="foodlist">
-						<view><image src="../static/bwimg/food.png" class="foimg"></image></view>
-						<view>
-							<view class="foadd">澳门烧鸭卤味饭新卤味饭新街口店-价值999元</view>
-							<view class="instance">李时珍大道 | 3.4km</view>
-							<view class="fobo">
-								<view class="price">
-									<text class="sell">￥</text>
-									999
+									{{ item.price }}
 								</view>
 								<view class="free">
 									<view></view>
@@ -153,7 +99,25 @@
 						</view>
 					</view>
 				</view>
-				<view class="current" v-show="Inv == 1"></view>
+				<view class="current" v-show="Inv == 1">
+					<view class="foodlist" v-for="(item, index) in goodList" :key="index">
+						<view><image :src="item.thumb" class="foimg"></image></view>
+						<view>
+							<view class="foadd">{{ item.name }}</view>
+							<view class="instance">{{ item.address }} | {{ item.dist }}</view>
+							<view class="fobo">
+								<view class="price">
+									<text class="sell">￥</text>
+									{{ item.price }}
+								</view>
+								<view class="free">
+									<view></view>
+									<text>免费抽</text>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
 				<view class="current" v-show="Inv == 2"></view>
 				<view class="current" v-show="Inv == 3"></view>
 			</view>
@@ -162,21 +126,96 @@
 </template>
 
 <script>
+import REQUtil from '@/common/request.js';
 export default {
-	props: ['looplist'],
 	data() {
 		return {
 			list: [],
 			Inv: 0,
-			datalist: []
+			looplist:[],
+			looplist1:[],
+			numObj:{},
+			secList:[],
+			pagList: [],
+			goodList: [],
 		};
 	},
 	onLoad() {},
+	mounted() {
+		this.getBannerList();
+		this.getShoppingList();
+		this.getPagList();
+		this.getSecList();
+		this.getNumList()
+	},
 	onReachBottom() {},
 	methods: {
-		changeTab(Inv) {
-			that.navIdx = Inv;
+	    // 获取banner图
+		getBannerList(){
+			REQUtil.Request({
+				url: REQUtil.API.bwcbanner,
+				success: res => {
+					this.looplist1 = res.data;
+					this.looplist = res.data.list;
+				},
+				error: function() {
+					console.log('1');
+				}
+			});
+		},
+		// 获取累计人数总数据
+		getNumList() {
+			REQUtil.Request({
+				url: REQUtil.API.bwcnum,
+				success: res => {
+					this.numObj = res.data;
+				},
+				error: function() {
+					console.log('1');
+				}
+			});
+		},
+		// 获取秒杀数据
+		getSecList() {
+			REQUtil.Request({
+				url: REQUtil.API.bwcsekill,
+				success: res => {
+					this.secList = res.data.list;
+				},
+				error: function() {
+					console.log('1');
+				}
+			});
+		},
+		// 分类选项卡数据请求
+		getPagList() {
+			REQUtil.Request({
+				url: REQUtil.API.bwcpaging,
+				success: res => {
+					this.pagList = res.data.list;
+				},
+				error: function() {
+					console.log('1');
+				}
+			});
+		},
+		// 分类数据请求
+		getShoppingList() {
+			REQUtil.Request({
+				url: REQUtil.API.bwclist,
+				success: res => {
+					this.goodList = res.data.list;
+				},
+				error: function() {
+					console.log('1');
+				}
+			});
+		},
+		//tab切换
+		changeTab(index){
+			this.Inv = index;
 		}
+		
 	}
 };
 </script>

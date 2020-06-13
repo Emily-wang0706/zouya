@@ -14,28 +14,17 @@
 
 <script>
 import swiperTabBw from '@/my-components/swiper-tab-bw.vue';
-import REQUtil from '@/common/request.js';
 export default {
 	data() {
 		return {
 			count: 0,
 			btnnum: 0,
 			items: ['霸王餐', 'Pass卡'],
-			looplist: [],
+			// looplist: [],
 		};
 	},
 	components: { swiperTabBw },
-	onLoad() {
-		REQUtil.Request({
-			url: REQUtil.API.bwcbanner,
-			success: res => {
-				this.looplist = res.data.list;
-			},
-			error: function() {
-				console.log('1');
-			}
-		});
-	},
+	onLoad() {},
 	methods: {
 		change(e) {
 			this.count = e;

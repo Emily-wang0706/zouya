@@ -14,7 +14,11 @@ let api_url = {
 	friend:"/api/vlog/friend/log",
 	bwcindex:"/api/vlog/free/list",
 	// 霸王餐首页接口
-	bwcbanner:"/api/vlog/free/banner"
+	bwcbanner:"/api/vlog/free/banner",//轮播图
+	bwclist:"/api/vlog/free/list",//分类活动列表
+	bwcnum:"/api/vlog/free/homeStat",//数据统计
+	bwcpaging:"/api/vlog/free/category",//首页分类
+	bwcsekill:"/api/vlog/free/seckill"//秒杀活动
 }
 /**
  * 

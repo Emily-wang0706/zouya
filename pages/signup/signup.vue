@@ -3,7 +3,7 @@
 		<view class="bg_title">
 			<view class="apply">
 				<image src="../../static/bwimg/return.svg"></image>
-				<text>申请报名 hello</text>
+				<text>申请报名</text>
 			</view>
 		</view>
 		<view class="apply_item">
@@ -68,7 +68,7 @@ export default {
 	.bg_title {
 		width: 100%;
 		height: 550rpx;
-		background-image: url(../../static/bwimg/bwcbm.jpg);
+		background-image:url(../../static/bwimg/bwcbmfilter.jpg);
 		.apply {
 			width: 94%;
 			height: 86rpx;
@@ -266,7 +266,6 @@ export default {
 	.app_footer{
 		width:90%;
 		height:312rpx;
-		background-color: #71D5A1;
 		margin-left: 5%;
 		position: absolute;
 		top: 1480rpx;
