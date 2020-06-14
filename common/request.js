@@ -50,9 +50,7 @@ function gRequest({url,method = "post",isShowLoading,showError,data,success,fail
 			'content-type': 'application/x-www-form-urlencoded'
 		}
 	}
-
 	// 发起请求
-	console.log('api_token:' + api_token);
 	uni.request({
 		url: url,
 		method: method,

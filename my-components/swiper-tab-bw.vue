@@ -130,8 +130,8 @@ import REQUtil from '@/common/request.js';
 export default {
 	data() {
 		return {
-			list: [],
 			Inv: 0,
+			list: [],
 			looplist:[],
 			looplist1:[],
 			numObj:{},
@@ -214,8 +214,7 @@ export default {
 		//tab切换
 		changeTab(index){
 			this.Inv = index;
-		}
-		
+		}	
 	}
 };
 </script>
