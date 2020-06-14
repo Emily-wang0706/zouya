@@ -7623,9 +7623,9 @@ module.exports = g;
 
 /***/ }),
 /* 4 */
-/*!***********************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/pages.json ***!
-  \***********************************************/
+/*!***********************************!*\
+  !*** F:/qiandao/zouya/pages.json ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -7768,9 +7768,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 13 */
-/*!******************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/index.js ***!
-  \******************************************************/
+/*!******************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/index.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7886,9 +7886,9 @@ var install = function install(Vue) {
 
 /***/ }),
 /* 14 */
-/*!*****************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/mixin/mixin.js ***!
-  \*****************************************************************/
+/*!*****************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/mixin/mixin.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7925,9 +7925,9 @@ var install = function install(Vue) {
 
 /***/ }),
 /* 15 */
-/*!*******************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/mixin/mpShare.js ***!
-  \*******************************************************************/
+/*!*******************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/mixin/mpShare.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -7946,9 +7946,9 @@ module.exports = {
 
 /***/ }),
 /* 16 */
-/*!*******************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/request/index.js ***!
-  \*******************************************************************/
+/*!*******************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/request/index.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8912,9 +8912,9 @@ if (hadRuntime) {
 
 /***/ }),
 /* 20 */
-/*!**************************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/function/queryParams.js ***!
-  \**************************************************************************/
+/*!**************************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/function/queryParams.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8980,9 +8980,9 @@ queryParams;exports.default = _default;
 
 /***/ }),
 /* 21 */
-/*!********************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/function/route.js ***!
-  \********************************************************************/
+/*!********************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/function/route.js ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9076,9 +9076,9 @@ route;exports.default = _default;
 
 /***/ }),
 /* 22 */
-/*!*************************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/function/timeFormat.js ***!
-  \*************************************************************************/
+/*!*************************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/function/timeFormat.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9115,9 +9115,9 @@ timeFormat;exports.default = _default;
 
 /***/ }),
 /* 23 */
-/*!***********************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/function/timeFrom.js ***!
-  \***********************************************************************/
+/*!***********************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/function/timeFrom.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9172,9 +9172,9 @@ timeFrom;exports.default = _default;
 
 /***/ }),
 /* 24 */
-/*!****************************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/function/colorGradient.js ***!
-  \****************************************************************************/
+/*!****************************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/function/colorGradient.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9281,9 +9281,9 @@ function rgbToHex(rgb) {
 
 /***/ }),
 /* 25 */
-/*!*******************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/function/guid.js ***!
-  \*******************************************************************/
+/*!*******************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/function/guid.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9332,9 +9332,9 @@ guid;exports.default = _default;
 
 /***/ }),
 /* 26 */
-/*!********************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/function/color.js ***!
-  \********************************************************************/
+/*!********************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/function/color.js ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9377,9 +9377,9 @@ color;exports.default = _default;
 
 /***/ }),
 /* 27 */
-/*!************************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/function/type2icon.js ***!
-  \************************************************************************/
+/*!************************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/function/type2icon.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9422,9 +9422,9 @@ type2icon;exports.default = _default;
 
 /***/ }),
 /* 28 */
-/*!**************************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/function/randomArray.js ***!
-  \**************************************************************************/
+/*!**************************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/function/randomArray.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9439,9 +9439,9 @@ randomArray;exports.default = _default;
 
 /***/ }),
 /* 29 */
-/*!*******************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/function/test.js ***!
-  \*******************************************************************/
+/*!*******************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/function/test.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9623,9 +9623,9 @@ function empty(value) {
 
 /***/ }),
 /* 30 */
-/*!*********************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/function/random.js ***!
-  \*********************************************************************/
+/*!*********************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/function/random.js ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9643,9 +9643,9 @@ random;exports.default = _default;
 
 /***/ }),
 /* 31 */
-/*!*******************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/function/trim.js ***!
-  \*******************************************************************/
+/*!*******************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/function/trim.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9668,9 +9668,9 @@ trim;exports.default = _default;
 
 /***/ }),
 /* 32 */
-/*!********************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/function/toast.js ***!
-  \********************************************************************/
+/*!********************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/function/toast.js ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9688,9 +9688,9 @@ toast;exports.default = _default;
 
 /***/ }),
 /* 33 */
-/*!*******************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/config/config.js ***!
-  \*******************************************************************/
+/*!*******************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/config/config.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9704,9 +9704,9 @@ var version = '1.2.9';var _default =
 
 /***/ }),
 /* 34 */
-/*!*******************************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/uview-ui/libs/config/zIndex.js ***!
-  \*******************************************************************/
+/*!*******************************************************!*\
+  !*** F:/qiandao/zouya/uview-ui/libs/config/zIndex.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9738,9 +9738,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 39 */,
 /* 40 */,
 /* 41 */
-/*!******************************************************!*\
-  !*** /Users/edz/qiandaokeji/zouya/common/request.js ***!
-  \******************************************************/
+/*!******************************************!*\
+  !*** F:/qiandao/zouya/common/request.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9757,11 +9757,15 @@ var api_url = {
   friend: "/api/vlog/friend/log",
   bwcindex: "/api/vlog/free/list",
   // 霸王餐首页接口
-  bwcbanner: "/api/vlog/free/banner" };
-
+  bwcbanner: "/api/vlog/free/banner", //轮播图
+  bwclist: "/api/vlog/free/list", //分类活动列表
+  bwcnum: "/api/vlog/free/homeStat", //数据统计
+  bwcpaging: "/api/vlog/free/category", //首页分类
+  bwcsekill: "/api/vlog/free/seckill" //秒杀活动
+};
 /**
-                                         * 
-                                         */
+    * 
+    */
 function gRequest(_ref) {var url = _ref.url,_ref$method = _ref.method,method = _ref$method === void 0 ? "post" : _ref$method,isShowLoading = _ref.isShowLoading,showError = _ref.showError,data = _ref.data,_success = _ref.success,_fail = _ref.fail,complete = _ref.complete;
   if (isShowLoading) {
     uni.showLoading({

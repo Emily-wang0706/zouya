@@ -11,6 +11,8 @@
 	"libVersion": "2.9.2",
 	"appid": "wxd67c90d4a7f19488",
 	"projectname": "zou",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -37,8 +39,8 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "pages/bawc/bawc",
-					"pathName": "pages/bawc/bawc",
+					"name": "pages/signup/signup",
+					"pathName": "pages/signup/signup",
 					"scene": null
 				}
 			]

@@ -24,26 +24,26 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.comment.data-v-13d8a0de {
+.comment.data-v-3f3a5bde {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
   padding: 15rpx 20rpx;
 }
-.comment .left image.data-v-13d8a0de {
+.comment .left image.data-v-3f3a5bde {
   width: 64rpx;
   height: 64rpx;
   border-radius: 50%;
   background-color: #f2f2f2;
 }
-.comment .right.data-v-13d8a0de {
+.comment .right.data-v-3f3a5bde {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
           flex: 1;
   padding-left: 20rpx;
   font-size: 30rpx;
 }
-.comment .right .top.data-v-13d8a0de {
+.comment .right .top.data-v-3f3a5bde {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -55,12 +55,12 @@
           align-items: center;
   margin-bottom: 10rpx;
 }
-.comment .right .top .name.data-v-13d8a0de {
+.comment .right .top .name.data-v-3f3a5bde {
   color: #A0A0A0;
   font-size: 26rpx;
   line-height: 42rpx;
 }
-.comment .right .top .like.data-v-13d8a0de {
+.comment .right .top .like.data-v-3f3a5bde {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -70,37 +70,37 @@
   color: #9a9a9a;
   font-size: 26rpx;
 }
-.comment .right .top .like .icon.data-v-13d8a0de {
+.comment .right .top .like .icon.data-v-3f3a5bde {
   font-size: 26rpx;
 }
-.comment .right .top .like .num.data-v-13d8a0de {
+.comment .right .top .like .num.data-v-3f3a5bde {
   margin-left: 12rpx;
   font-size: 27rpx;
   color: #3A3A3A;
 }
-.comment .right .top .highlight.data-v-13d8a0de {
+.comment .right .top .highlight.data-v-3f3a5bde {
   color: #f44d4d;
 }
-.comment .right .content.data-v-13d8a0de {
+.comment .right .content.data-v-3f3a5bde {
   margin-bottom: 10rpx;
   color: #050505;
   font-size: 27rpx;
 }
-.comment .right .content text.data-v-13d8a0de {
+.comment .right .content text.data-v-3f3a5bde {
   color: #A0A0A0;
   font-size: 22rpx;
   margin-left: 8rpx;
 }
-.comment .right .reply-box.data-v-13d8a0de {
+.comment .right .reply-box.data-v-3f3a5bde {
   border-radius: 12rpx;
   padding-left: 30rpx;
 }
-.comment .right .reply-box .item.data-v-13d8a0de {
+.comment .right .reply-box .item.data-v-3f3a5bde {
   padding: 20rpx;
   position: relative;
   padding-right: 0px;
 }
-.comment .right .reply-box .item .userinfobox.data-v-13d8a0de {
+.comment .right .reply-box .item .userinfobox.data-v-3f3a5bde {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -108,7 +108,7 @@
   -webkit-justify-content: space-between;
           justify-content: space-between;
 }
-.comment .right .reply-box .item .userinfobox .like.data-v-13d8a0de {
+.comment .right .reply-box .item .userinfobox .like.data-v-3f3a5bde {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -118,24 +118,24 @@
   color: #9a9a9a;
   font-size: 26rpx;
 }
-.comment .right .reply-box .item .userinfobox .like .icon.data-v-13d8a0de {
+.comment .right .reply-box .item .userinfobox .like .icon.data-v-3f3a5bde {
   font-size: 26rpx;
 }
-.comment .right .reply-box .item .userinfobox .like .num.data-v-13d8a0de {
+.comment .right .reply-box .item .userinfobox .like .num.data-v-3f3a5bde {
   margin-left: 12rpx;
   font-size: 27rpx;
   color: #3A3A3A;
 }
-.comment .right .reply-box .item .userinfobox .highlight.data-v-13d8a0de {
+.comment .right .reply-box .item .userinfobox .highlight.data-v-3f3a5bde {
   color: #f44d4d;
 }
-.comment .right .reply-box .item .username.data-v-13d8a0de {
+.comment .right .reply-box .item .username.data-v-3f3a5bde {
   color: #A0A0A0;
   font-size: 26rpx;
   line-height: 42rpx;
   margin-bottom: 8rpx;
 }
-.comment .right .reply-box .item .username .Blogger.data-v-13d8a0de {
+.comment .right .reply-box .item .username .Blogger.data-v-3f3a5bde {
   width: 77rpx;
   height: 35rpx;
   border: 1rpx solid #ffc21f;
@@ -147,16 +147,16 @@
   margin-left: 16rpx;
   border-radius: 35rpx;
 }
-.comment .right .reply-box .item .text.data-v-13d8a0de {
+.comment .right .reply-box .item .text.data-v-3f3a5bde {
   font-size: 27rpx;
   color: #050505;
 }
-.comment .right .reply-box .item .text text.data-v-13d8a0de {
+.comment .right .reply-box .item .text text.data-v-3f3a5bde {
   color: #A0A0A0;
   font-size: 24rpx;
   margin-left: 8rpx;
 }
-.comment .right .reply-box .item image.data-v-13d8a0de {
+.comment .right .reply-box .item image.data-v-3f3a5bde {
   width: 50rpx;
   height: 50rpx;
   border-radius: 50%;
@@ -164,7 +164,7 @@
   left: -50rpx;
   top: 20rpx;
 }
-.comment .right .reply-box .all-reply.data-v-13d8a0de {
+.comment .right .reply-box .all-reply.data-v-3f3a5bde {
   padding: 15rpx 20rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -175,10 +175,10 @@
   -webkit-align-items: center;
           align-items: center;
 }
-.comment .right .reply-box .all-reply .more.data-v-13d8a0de {
+.comment .right .reply-box .all-reply .more.data-v-3f3a5bde {
   margin-left: 6rpx;
 }
-.comment .right .bottom.data-v-13d8a0de {
+.comment .right .bottom.data-v-3f3a5bde {
   margin-top: 20rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -186,7 +186,7 @@
   font-size: 24rpx;
   color: #9a9a9a;
 }
-.comment .right .bottom .reply.data-v-13d8a0de {
+.comment .right .bottom .reply.data-v-3f3a5bde {
   color: #5677fc;
   margin-left: 10rpx;
 }
