@@ -59,7 +59,7 @@
 						<text class="txt-l">距结束还有:</text>
 						<text class="txt-r">12:32:58</text>
 					</view>
-					<view class="l-c-footer-r">1元超低购</view>
+					<view class="l-c-footer-r">{{secList[0].price}}元超低购</view>
 				</view>
 			</view>
 		</view>
