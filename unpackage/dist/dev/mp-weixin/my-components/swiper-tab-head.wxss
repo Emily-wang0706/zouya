@@ -27,19 +27,19 @@ page { background-color: #FAFAFA;}
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.content.data-v-2d32497f {
+.content.data-v-05a41f0a {
   width: 100%;
   height: auto;
 }
 /* 将三个内容view的display设置为none(隐藏) */
-.end-title.data-v-2d32497f {
+.end-title.data-v-05a41f0a {
   width: 100%;
   margin: 0 auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
 }
-.end-title > view.data-v-2d32497f {
+.end-title > view.data-v-05a41f0a {
   height: 88rpx;
   line-height: 88rpx;
   color: #999999;
@@ -49,33 +49,33 @@ page { background-color: #FAFAFA;}
           flex-grow: 1;
   text-align: center;
 }
-.end-cont.data-v-2d32497f {
+.end-cont.data-v-05a41f0a {
   display: none;
   background: #c8c7cc;
 }
-.btna.data-v-2d32497f {
+.btna.data-v-05a41f0a {
   color: black !important;
   font-size: 32rpx !important;
   box-sizing: border-box;
 }
-.end-content.data-v-2d32497f {
+.end-content.data-v-05a41f0a {
   width: 100%;
   height: calc(100vh - 148rpx);
 }
-.dis.data-v-2d32497f {
+.dis.data-v-05a41f0a {
   width: 100vw;
   height: 100%;
   display: block;
   background: #ffffff;
 }
-.search.data-v-2d32497f {
+.search.data-v-05a41f0a {
   width: 90%;
   height: 70rpx;
   margin: 20rpx 5%;
   border-radius: 50rpx;
   background: #999999;
 }
-.search.data-v-2d32497f {
+.search.data-v-05a41f0a {
   width: 90%;
   height: 70rpx;
   margin: 20rpx 5%;
@@ -95,19 +95,19 @@ page { background-color: #FAFAFA;}
   -webkit-justify-content: center;
           justify-content: center;
 }
-.search-txt.data-v-2d32497f {
+.search-txt.data-v-05a41f0a {
   display: inline-block;
   height: 70rpx;
   line-height: 70rpx;
 }
-.help-select-contet.data-v-2d32497f {
+.help-select-contet.data-v-05a41f0a {
   -webkit-column-count: 2;
           column-count: 2;
   -webkit-column-gap: 4rpx;
           column-gap: 4rpx;
   width: 100%;
 }
-.help-select-card.data-v-2d32497f {
+.help-select-card.data-v-05a41f0a {
   background: #fff;
   width: 375rpx;
   display: inline-block;
@@ -125,18 +125,18 @@ page { background-color: #FAFAFA;}
   padding: 20rpx 15rpx;
   margin-bottom: 10rpx;
 }
-.help-select-iamge.data-v-2d32497f {
+.help-select-iamge.data-v-05a41f0a {
   width: 100%;
   height: auto;
 }
-.uni-slidingMenu.data-v-2d32497f {
+.uni-slidingMenu.data-v-05a41f0a {
   width: 100%;
   white-space: nowrap;
   background: none;
   overflow: hidden;
 }
 /* 循环显示的菜单栏 */
-.slidingMenuList.data-v-2d32497f {
+.slidingMenuList.data-v-05a41f0a {
   height: 60rpx;
   line-height: 60rpx;
   display: inline-block;
@@ -147,11 +147,11 @@ page { background-color: #FAFAFA;}
   padding: 0px 18rpx;
   color: #828282;
 }
-.slidingMenuList.data-v-2d32497f:last-child {
+.slidingMenuList.data-v-05a41f0a:last-child {
   margin-right: 12rpx;
 }
 /* 点击选中菜单栏时的样式 */
-.active.data-v-2d32497f {
+.active.data-v-05a41f0a {
   color: #000;
   font-weight: bold;
 }

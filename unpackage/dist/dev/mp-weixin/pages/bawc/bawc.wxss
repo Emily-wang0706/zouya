@@ -24,16 +24,16 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.content.data-v-70e055ee {
+.content.data-v-3054b42c {
   width: 100vw;
   height: 100vh;
 }
-.content .header.data-v-70e055ee {
+.content .header.data-v-3054b42c {
   width: 100%;
   padding: 60rpx 0 10rpx 0;
   z-index: 9;
 }
-.content .header .header-title.data-v-70e055ee {
+.content .header .header-title.data-v-3054b42c {
   width: 36%;
   height: 88rpx;
   margin: 0 auto;
@@ -41,7 +41,7 @@
   display: -webkit-flex;
   display: flex;
 }
-.content .header .header-title > view.data-v-70e055ee {
+.content .header .header-title > view.data-v-3054b42c {
   height: 88rpx;
   line-height: 88rpx;
   color: #999999;
@@ -51,23 +51,23 @@
           flex-grow: 1;
   text-align: center;
 }
-.content .header .header-title .btna.data-v-70e055ee {
+.content .header .header-title .btna.data-v-3054b42c {
   color: black !important;
   font-size: 36rpx !important;
   box-sizing: border-box;
 }
-.content .header-content.data-v-70e055ee {
+.content .header-content.data-v-3054b42c {
   width: 100%;
   height: calc(100vh - 158rpx);
   background: red;
 }
-.content .header-content .header-cont.data-v-70e055ee {
+.content .header-content .header-cont.data-v-3054b42c {
   overflow: hidden;
   overflow-y: auto;
   display: none;
   background: #c8c7cc;
 }
-.content .header-content .dis.data-v-70e055ee {
+.content .header-content .dis.data-v-3054b42c {
   width: 100vw;
   height: 100%;
   display: block;

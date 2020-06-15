@@ -347,12 +347,12 @@
 				height:80rpx;
 				background:rgba(255,194,31,1);
 				border-radius:40rpx;
-				margin: 86rpx 20%;
+				margin: 86rpx 16%;
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				.btn{
-					width:63rpx;
+					width:64rpx;
 					height:31rpx;
 					font-size:32rpx;
 					font-family:PingFang SC;
