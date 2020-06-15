@@ -21,7 +21,7 @@
 		<!-- 卡片 -->
 		<view class="card-box">
 			<view class="card-item">
-				<view class="card-item-l"><image mode="widthFix" class="bg-img" src="../static/bwimg/card-l.png"></image></view>
+				<view class="card-item-l"><image mode="widthFix" class="bg-img" src="@/static/bwimg/card-l.png"></image></view>
 				<view class="card-item-r">
 					<text class="c-subtitle">累计中奖人数</text>
 					<text class="c-title">{{numObj.winning_num}}</text>
@@ -50,7 +50,7 @@
 			<view class="limTime-cont">
 				<image class="l-c-img" mode="widthFix" :src="secList[0].thumb"></image>
 				<view class="l-c-subTitle">
-					<image class="" mode="widthFix" :src="secList[0].store_logo"></image>
+					<image class="" mode="widthFix" src="../static/img/love.png"></image>
 					<text>{{secList[0].store_name}}</text>
 				</view>
 				<text class="l-c-title">{{secList[0].name}}</text>
@@ -59,7 +59,7 @@
 						<text class="txt-l">距结束还有:</text>
 						<text class="txt-r">12:32:58</text>
 					</view>
-					<view class="l-c-footer-r">1元超低购</view>
+					<view class="l-c-footer-r">{{secList[0].price}}元超低购</view>
 				</view>
 			</view>
 		</view>
@@ -67,7 +67,7 @@
 		<view class="select-box">
 			<view class="select-title">
 				<view class="l-title-item l-title-l">
-					<image class="l-title-img" mode="widthFix" src="../static/bwimg/time.png"></image>
+					<image class="l-title-img" mode="widthFix" src="../static/bwimg/overlord_meal／icon4@2x.png"></image>
 					<text class="l-title-txt">精选霸王餐</text>
 					<text class="l-title-text">品质美食免费吃</text>
 				</view>
@@ -239,7 +239,7 @@ export default {
 			position: absolute;
 			left: 2.5%;
 			bottom: -60rpx;
-			border-radius: 30rpx;
+			border-radius: 20rpx;
 			overflow: hidden;
 			.swiper {
 				width: 100%;
@@ -255,7 +255,7 @@ export default {
 	.card-box {
 		width: 100%;
 		height: 200rpx;
-		margin: 80rpx 0 0 0;
+		margin: 70rpx 0 0 0;
 		display: flex;
 		flex-flow: row nowrap;
 		align-items: center;
@@ -270,7 +270,7 @@ export default {
 			border-radius: 20rpx;
 			background: rgba(255, 255, 255, 1);
 			box-shadow: 0px 4px 20px 0px rgba(74, 74, 74, 0.1);
-			margin-left: 30rpx;
+			margin-left: 32rpx;
 			.card-item-l {
 				width: 40%;
 				height: 100%;
@@ -279,8 +279,8 @@ export default {
 				align-items: center;
 				justify-content: center;
 				> image {
-					width: 80rpx;
-					height: 80rpx;
+					width: 50rpx;
+					height: 50rpx;
 				}
 			}
 			.card-item-r {
@@ -293,15 +293,18 @@ export default {
 				> text {
 					width: 100%;
 					text-align: left;
-					font-size: 30rpx;
+					font-size: 24rpx;
 					color: #666;
 					overflow: hidden;
 					text-overflow: ellipsis;
 					whitewhite-space: nowrap;
+					font-weight: 500;
 				}
 				.c-title {
-					font-size: 32rpx;
+					font-size: 30rpx;
 					color: #000;
+					margin-top: -20rpx;
+					font-weight: 800;
 				}
 			}
 		}
@@ -313,8 +316,8 @@ export default {
 		align-items: center;
 		justify-content: space-evenly;
 		.LimTime-title {
-			width: 95%;
-			margin: 30rpx 0 20rpx 0;
+			width: 93%;
+			margin: 14rpx 0;
 			display: flex;
 			flex-flow: row nowrap;
 			align-items: center;
@@ -326,6 +329,7 @@ export default {
 				> image {
 					width: 30rpx;
 					height: 30rpx;
+					margin-left: 5rpx;
 				}
 				> text {
 					font-size: 24rpx;
@@ -355,7 +359,7 @@ export default {
 			padding-left: 24rpx;
 		}
 		.limTime-cont {
-			width: 95%;
+			width: 93%;
 			display: flex;
 			flex-flow: column nowrap;
 			align-items: center;
@@ -364,40 +368,43 @@ export default {
 			border-radius: 16rpx;
 			box-shadow: 0px 4px 20px 0px rgba(74, 74, 74, 0.1); //将h-shadow,v-shadow设为0px,实现四周阴影
 			.l-c-img {
-				width: 95%;
-				margin: 2% 0;
+				width: 93%;
+				margin: 3% 0;
 				height: 400rpx !important;
 				border-radius: 10rpx;
 			}
 			.l-c-subTitle {
 				width: 95%;
 				height: 40rpx;
-				margin-bottom: 30rpx;
+				margin-bottom: 15rpx;
 				display: flex;
 				flex-flow: row nowrap;
 				align-items: center;
 				justify-content: flex-start;
 				> image {
-					width: 40rpx;
-					height: 40rpx;
-					margin-right: 10rpx;
+					width: 28rpx;
+					height: 28rpx;
+					margin-right: 14rpx;
 				}
 				> text {
-					font-size: 30rpx;
+					font-size: 28rpx;
+					color: #333333;
 				}
 			}
 			.l-c-title {
 				width: 95%;
 				line-height: 48rpx;
-				font-size: 40rpx;
+				font-size: 33rpx;
 				overflow: hidden; /*超出隐藏*/
 				text-overflow: ellipsis; /*文本溢出时显示省略标记*/
 				display: -webkit-box; /*设置弹性盒模型*/
 				-webkit-line-clamp: 2; /*文本占的行数,如果要设置2行加...则设置为2*/
 				-webkit-box-orient: vertical; /*子代元素垂直显示*/
+				font-weight: 800;
 			}
 			.l-c-footer {
 				width: 95%;
+				height: 90rpx;
 				padding: 20rpx 0;
 				display: flex;
 				flex-flow: row nowrap;
@@ -410,14 +417,14 @@ export default {
 						margin-right: 10rpx;
 					}
 					.txt-r {
-						width: 152px;
-						height: 40px;
-						padding: 10rpx 16rpx;
+						width: 152rpx;
+						height: 40rpx;
+						padding: 5rpx 16rpx;
 						font-size: 28rpx;
 						color: rgba(223, 7, 4, 1);
 						font-weight: 500;
 						background: rgba(255, 234, 234, 1);
-						border-radius: 8px;
+						border-radius: 4rpx;
 					}
 				}
 				.l-c-footer-r {
@@ -437,7 +444,7 @@ export default {
 		align-items: center;
 		justify-content: space-evenly;
 		.select-title {
-			width: 95%;
+			width: 93%;
 			margin: 30rpx 0 20rpx 0;
 			display: flex;
 			flex-flow: row nowrap;
@@ -462,6 +469,7 @@ export default {
 				> image {
 					width: 30rpx;
 					height: 30rpx;
+					margin-left: 5rpx;
 				}
 				.l-title-img {
 					width: 60rpx;
@@ -479,7 +487,7 @@ export default {
 			}
 		}
 		.select-cont {
-			width: 95%;
+			width: 93%;
 			height: 1040rpx;
 			background: rgba(255, 255, 255, 1);
 			box-shadow: 0 2rpx 10rpx 0 rgba(74, 74, 74, 0.1);
@@ -489,6 +497,7 @@ export default {
 				width: 100%;
 				height: 100upx;
 				display: flex;
+				border-bottom: 1rpx solid rgba(244,244,244,1);
 			}
 			.inv-h {
 				height: 100upx;
@@ -501,8 +510,8 @@ export default {
 			.inv-h-se {
 				background: #ffffff;
 				color: #ffc21f;
-				border-bottom: 2rpx solid #ffc21f;
 				border-radius: 15rpx 15rpx 0 0;
+				border-bottom: 4rpx solid #ffc21f;
 			}
 		}
 		.foodlist {

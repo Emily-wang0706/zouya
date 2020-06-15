@@ -321,6 +321,7 @@
 		display: inline-block;
 		text-align: center;
 		transition-property: background-color, color;
+		margin-right: 30rpx;
 	}
 
 	.u-tab-bar {
